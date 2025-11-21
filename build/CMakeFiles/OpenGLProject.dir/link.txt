@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/OpenGLProject.dir/draw_triangle.cpp.o CMakeFiles/OpenGLProject.dir/glad.c.o -o OpenGLProject   -L/opt/homebrew/opt/glfw/lib  -Wl,-rpath,/opt/homebrew/opt/glfw/lib -lglfw -framework OpenGL
